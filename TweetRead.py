@@ -62,7 +62,7 @@ if __name__ == '__main__':
     
     print(f'listening on port {port}')
     
-    s.listen(5)
+    s.listen(3)
     c, addr = s.accept()
     
     send_data(c)   
